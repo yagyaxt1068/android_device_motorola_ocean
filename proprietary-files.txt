@@ -18,3 +18,24 @@ vendor/etc/acdbdata/na/Speaker_cal.acdb
 vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_720p_622.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_ofilm_720p_622.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_720p_622.xml
+
+# Display Panel Firmwares
+vendor/firmware/focaltech-ofilm-ft8006u-0e-001-ocean.bin
+vendor/firmware/ilitek-tianma-ILI9881-1c-69-ocean.bin
+vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin
+
+# FocalTech Touch Firmware
+vendor/firmware/FT8006U_Pramboot.bin
+
+# Proximity Sensor Firmware
+vendor/firmware/AbovCapSense.BIN
+
+# Sound Firmware (TFA987X)
+vendor/firmware/tfa98xx.cnt
+vendor/firmware/mono.cnt
+
+# Vibrator Firmwares
+vendor/firmware/aw8624_haptic.bin
+vendor/firmware/aw8624_rtp.bin
+vendor/firmware/aw8624_rtp_lighthouse.bin
+vendor/firmware/aw8624_rtp_silk.bin
