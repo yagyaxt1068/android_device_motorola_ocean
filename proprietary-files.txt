@@ -24,6 +24,17 @@ vendor/firmware/focaltech-ofilm-ft8006u-0e-001-ocean.bin
 vendor/firmware/ilitek-tianma-ILI9881-1c-69-ocean.bin
 vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin
 
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/permissions/android.hardware.fingerprint.xml
+vendor/framework/com.fingerprints.extension.jar
+vendor/lib64/com.fingerprints.extension@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+-lib/vendor.qti.hardware.fingerprint@1.0.so
+-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+
 # FocalTech Touch Firmware
 vendor/firmware/FT8006U_Pramboot.bin
 
