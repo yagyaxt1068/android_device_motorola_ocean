@@ -25,8 +25,10 @@ TARGET_OTA_ASSERT_DEVICE := ocean
 # Kernel
 TARGET_KERNEL_CONFIG := ocean_defconfig
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+# Partitions
+BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432      # 32768 * 1024 (mmcblk0p41-42)
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2885681152  # 2818048 * 1024 (mmcblk0p62-63)
+BOARD_VENDORIMAGE_PARTITION_SIZE := 603979776   # 589824 * 1024 (mmcblk0p60-61)
 
 # inherit from the proprietary version
--include vendor/motorola/river/BoardConfigVendor.mk
+-include vendor/motorola/ocean/BoardConfigVendor.mk
