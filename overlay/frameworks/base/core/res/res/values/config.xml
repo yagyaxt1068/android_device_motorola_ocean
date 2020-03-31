@@ -38,5 +38,5 @@
 
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent">motog7power</string>
-
+    <string name="config_wifi_tcp_buffers">131072,262144,6287200,4096,221184,3145728</string>
 </resources>
