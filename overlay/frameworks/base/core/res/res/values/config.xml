@@ -40,5 +40,6 @@
     <string name="config_mms_user_agent">motog7power</string>
     <string name="config_wifi_tcp_buffers">131072,262144,6287200,4096,221184,3145728</string>
     <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
+    <string name="config_wifi_random_mac_oui">DA-A1-19</string>
 
 </resources>
