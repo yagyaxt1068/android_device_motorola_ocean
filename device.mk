@@ -34,6 +34,12 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    $(LOCAL_PATH)/configs/camera/ov12a10_ocean_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_ocean_chromatix.xml \
+    $(LOCAL_PATH)/configs/camera/s5k4h7_ocean_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h7_ocean_chromatix.xml
+
 # Fingerprint
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
