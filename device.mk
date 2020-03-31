@@ -24,5 +24,9 @@ $(call inherit-product-if-exists, vendor/motorola/ocean/ocean-vendor.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_WIDTH := 720
+
 # Inherit from motorola sdm632-common
 $(call inherit-product, device/motorola/sdm632-common/common.mk)
