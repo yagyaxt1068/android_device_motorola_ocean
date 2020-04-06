@@ -24,6 +24,30 @@ vendor/firmware/focaltech-ofilm-ft8006u-0e-001-ocean.bin
 vendor/firmware/ilitek-tianma-ILI9881-1c-69-ocean.bin
 vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin
 
+# DTV
+#etc/permissions/com.motorola.hardware.dtv.xml
+#etc/permissions/unavail.com.motorola.hardware.dtv.xml
+#etc/permissions/mot_dtv_permissions.xml
+#etc/motorola/sysconfig/dtv-hidepackages.xml
+#lib/motorola.hardware.tv@1.0.so
+#lib/vndk-28/android.hardware.tv.cec@1.0.so
+#lib/vndk-28/android.hardware.tv.input@1.0.so
+#lib/libdtvtuner.so
+#lib/android.hardware.tv.cec@1.0.so
+#lib/android.hardware.tv.input@1.0.so
+#lib64/motorola.hardware.tv@1.0.so
+#lib64/vndk-28/android.hardware.tv.cec@1.0.so
+#lib64/vndk-28/android.hardware.tv.input@1.0.so
+#lib64/libdtvtuner.so
+#lib64/android.hardware.tv.cec@1.0.so
+#lib64/android.hardware.tv.input@1.0.so
+#vendor/lib/hw/motorola.hardware.tv@1.0-impl.so
+#vendor/lib/motorola.hardware.tv@1.0.so
+#vendor/bin/hw/motorola.hardware.tv@1.0-service
+#vendor/etc/init/motorola.hardware.tv@1.0-service.rc
+#vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so
+#vendor/lib64/motorola.hardware.tv@1.0.so
+
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc

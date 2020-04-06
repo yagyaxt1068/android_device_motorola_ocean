@@ -22,6 +22,9 @@ DEVICE_PATH := device/motorola/ocean
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := ocean
 
+# Audio
+#AUDIO_FEATURE_ENABLED_SMART_PA_TFA_98XX := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := ocean_defconfig
 
