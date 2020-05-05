@@ -815,11 +815,7 @@
 		<ctl name="TTY Mode" value="FULL" />
 		<path name="tty-headphones" />
 	</path>
-       
-	<path name="handset-stereo-dmic-ef">
-		<path name="speaker-dmic-endfire" />
-	</path> 
-	
+
 	<path name="voice-tty-vco-headphones">
 		<ctl name="TTY Mode" value="VCO" />
 		<path name="tty-headphones" />
